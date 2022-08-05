@@ -15,52 +15,9 @@ import Button from 'components/common/Button';
 const APP_URL = process.env.APP_URL || 'https://nami.exchange'
 
 const Index = () => {
-    // * Initial State
-    const [state, set] = useState({
-        showQR: false,
-    })
-    const setState = (state) => set((prevState) => ({ ...prevState, ...state }))
-
-    // * Use Hooks
-    const { t } = useTranslation(['home', 'modal'])
-
-    // * Render Handler
-    const renderQrCodeModal = useCallback(() => {
-        return (
-            <Modal
-                isVisible={state.showQR}
-                title={t('modal:scan_qr_to_download')}
-                onBackdropCb={() => setState({ showQR: false })}
-            >
-                <div className='flex items-center justify-center'>
-                    <QRCode
-                        value={`${APP_URL}#nami_exchange_download_app`}
-                        size={128}
-                    />
-                </div>
-                <div className='mt-4 w-full flex flex-row items-center justify-between'>
-                    <Button
-                        title={t('common:close')}
-                        type='secondary'
-                        componentType='button'
-                        className='!py-2'
-                        onClick={() => setState({ showQR: false })}
-                    />
-                </div>
-            </Modal>
-        )
-    }, [state.showQR])
 
     return (
-        <MaldivesLayout navOverComponent navMode={NAVBAR_USE_TYPE.FLUENT}>
-            <div className='homepage'>
-                <HomeIntroduce parentState={setState} />
-                <HomeMarketTrend />
-                <HomeNews />
-                <HomeAdditional parentState={setState} />
-                {renderQrCodeModal()}
-            </div>
-        </MaldivesLayout>
+        <div className='mt-8'>abc</div>
     )
 }
 
