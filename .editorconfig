@@ -6,7 +6,7 @@ root = true
 
 [*]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 end_of_line = lf
 charset = utf-8
@@ -16,7 +16,7 @@ insert_final_newline = true
 
 [*.{json,css,scss}]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 
 [package.json]

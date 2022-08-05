@@ -4,5 +4,5 @@ module.exports = {
         defaultLocale: 'en',
         keySeparator: '.',
         localeDetection: false,
-    },
+    }
 };
