@@ -1,0 +1,17 @@
+image: ubuntu:16.04
+
+pipelines:
+  branches:
+    '{dev,feature/cicd}':
+      - step:
+          name: "Deploy via ssh"
+          script:
+            - echo "Deploying to dev..."
+            - pipe: atlassian/ssh-run:0.2.5
+              variables:
+                SSH_USER: $ssh_username
+                SERVER: $ssh_server
+                PORT: $ssh_port
+                MODE: 'command'
+                COMMAND: 'cd /root/ansible && ansible-playbook deploy_web.yml'
+            - echo "Deployed"

@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nami.exchange
+
+# Sitemaps
+Sitemap: https://nami.exchange/sitemap.xml
+Sitemap: https://nami.exchange/server-sitemap.xml

@@ -1,0 +1,39 @@
+{
+  "section_1": {
+    "program": "Promotion",
+    "subtitle": "Experience the Beta version to",
+    "title": "Invite your friends",
+    "description": "Invite your friends to experience the first version of Nami Exchange and have a chance to be guaranteed to buy <1/><2>ATS IN THE SECOND LAUNCHPAD AND A BRAND NEW IPHONE 12 PRO MAX</2>",
+    "description_2": "The more friends you invite, the bigger the chance!",
+    "end_time": "The promotion will ends after",
+    "download": "Download app"
+  },
+  "section_2": {
+    "title": "Prize",
+    "description": "For first 5 users who refer the most friends successfully",
+    "prize_1": "01 FIRST PRIZE",
+    "prize_1_price": "<0>01 spot to be guaranteed to buy ATS in the second Launchpad,</0> followed by an iPhone 12 Pro Max which worth 32.000.000 VNDCC",
+    "prize_1_currency": "",
+    "prize_2": "01 SECOND PRIZE",
+    "prize_2_price": "15.000.000",
+    "prize_2_currency": "VNDC",
+    "prize_3": "01 THIRD PRIZE",
+    "prize_3_price": "10.000.000",
+    "prize_3_currency": "VNDC",
+    "prize_4": "01 FOURTH PRIZE",
+    "prize_4_price": "5.000.000",
+    "prize_4_currency": "VNDC",
+    "prize_5": "01 FIFTH PRIZE",
+    "prize_5_price": "2.000.000",
+    "prize_5_currency": "VNDC"
+  },
+  "refer_guide_title": "Guide to invite your friends",
+  "refer_guide_step_1": {
+      "first": "Sign up at",
+      "last": "or using Nami Exchange on your phone"
+  },
+  "refer_guide_step_2": "Copy your referral link in Account",
+  "refer_guide_step_3": "Invite your friends to sign up successfully at Nami Exchange",
+  "refer_guide_step_4": "Invites more friends to get bigger chance to win the prize",
+  "ranking": "Ranking board"
+}

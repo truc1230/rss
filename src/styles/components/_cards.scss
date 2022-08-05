@@ -1,0 +1,14 @@
+.card {
+  &.card-shadow {
+    box-shadow: 0px 16px 24px rgba(7, 12, 61, 0.04)
+  }
+  .card-header {
+    @apply px-10 pt-8 pb-2.5 flex justify-between items-center border-b;
+    .card-header-text {
+      @apply text-lg font-semibold
+    }
+  }
+  .card-body {
+    @apply px-10 pt-4 pb-8
+  }
+}

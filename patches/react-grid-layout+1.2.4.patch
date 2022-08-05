@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-grid-layout/lib/ResponsiveReactGridLayout.jsx b/node_modules/react-grid-layout/lib/ResponsiveReactGridLayout.jsx
+index eae614c..ecc72fe 100644
+--- a/node_modules/react-grid-layout/lib/ResponsiveReactGridLayout.jsx
++++ b/node_modules/react-grid-layout/lib/ResponsiveReactGridLayout.jsx
+@@ -284,8 +284,8 @@ export default class ResponsiveReactGridLayout extends React.Component<
+       newLayouts[newBreakpoint] = layout;
+ 
+       // callbacks
+-      this.props.onLayoutChange(layout, newLayouts);
+       this.props.onBreakpointChange(newBreakpoint, newCols);
++      this.props.onLayoutChange(layout, newLayouts);
+ 
+       this.setState({
+         breakpoint: newBreakpoint,

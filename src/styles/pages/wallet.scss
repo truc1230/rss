@@ -1,0 +1,71 @@
+.wallet-container {
+  margin-top: 60px;
+}
+.wallet-header {
+  background: linear-gradient(259.79deg, #070F5C -4.73%, #391ACA 100.54%);
+  padding: 1.5rem;
+  @apply rounded-3xl flex items-center justify-between lg:flex-row flex-col ;
+  .wallet-header-summary--divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+
+    @apply mt-2.5 mb-3
+  }
+}
+.wallet-body {
+  .wallet-body-padding-x {
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+  .tabs .tab-item {
+    @apply mr-10
+  }
+}
+
+.btn-deposit, .btn-withdraw {
+  width: 10.25rem;
+}
+
+.withdraw-form, .transfer-form {
+  padding: 1.5rem!important;
+}
+.deposit-form {
+  padding: 2.5rem 13.75rem!important;
+}
+.card-header-network {
+  padding-left: 13.75rem!important;
+  padding-right: 13.75rem!important;
+  .tabs {
+    width: 16rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wallet-container-deposit, .wallet-container-withdraw {
+    max-width: 840px
+  }
+  .wallet-header {
+    padding: 1.5rem 4.375rem;
+  }
+  .wallet-body {
+    .wallet-body-padding-x {
+      padding-left: 4.375rem;
+      padding-right: 4.375rem
+    }
+    .tabs .tab-item {
+      @apply mr-10
+    }
+  }
+  .withdraw-form, .transfer-form {
+    padding: 3rem 13.75rem!important;
+  }
+}
+
+.deposit-address {
+  width: 15rem;
+}
+
+.slider-item {
+  width: 18.125rem;
+  border-radius: 0.75rem;
+}

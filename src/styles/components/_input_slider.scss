@@ -1,0 +1,124 @@
+.input-range__splitter-container{
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 5px;
+  z-index: 10;
+}
+.input-range__splitter{
+  width: 25%;
+  border: solid 2px white;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.input-range__dot-container{
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 5px;
+  z-index: 10;
+}
+.input-range__dot{
+  width: 25%;
+  border: solid 2px white;
+  height: 10px;
+}
+
+
+.input-range__slider {
+  z-index: 12;
+  appearance: none;
+  @apply bg-teal border border-white shadow;
+  border-width: 3px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  width: 18px;
+  margin-left: -0.5rem;
+  margin-top: -12.5px;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+.input-range__slider:active {
+  transform: scale(1.1); }
+.input-range__slider:focus {
+  box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2); }
+.input-range--disabled .input-range__slider {
+  background: #d4d4d8;
+  border: 1px solid #d4d4d8;
+  box-shadow: none;
+  transform: none; }
+
+.input-range__slider-container {
+  transition: left 0.3s ease-out; }
+
+.input-range__label {
+  color: #aaaaaa;
+  font-family: "Helvetica Neue", san-serif;
+  font-size: 0.8rem;
+  transform: translateZ(0);
+  white-space: nowrap; }
+
+.input-range__label--min,
+.input-range__label--max {
+  display: none;
+  bottom: -1.4rem;
+  position: absolute; }
+
+.input-range__label--min {
+  left: 0; }
+
+.input-range__label--max {
+  right: 0; }
+
+.input-range__label--value {
+  position: absolute;
+  font-size: 0.75rem;
+  bottom: -1.7rem;
+  font-weight: 700;
+  color: #00C8BC;
+  @apply text-teal;
+}
+
+.input-range__label-container {
+  left: -60%;
+  position: relative; }
+.input-range__label--max .input-range__label-container {
+  left: 50%; }
+
+.input-range__track {
+  background: #EEF2FA;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.5rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out; }
+.input-range--disabled .input-range__track {
+  background: #EEF2FA; }
+
+.input-range__track--background {
+  left: 0;
+  margin-top: -0.15rem;
+  position: absolute;
+  right: 0;
+  top: 50%; }
+
+.input-range__track--active {
+  @apply bg-teal
+}
+
+.input-range {
+  height: 1rem;
+  position: relative;
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

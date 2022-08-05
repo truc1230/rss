@@ -1,0 +1,67 @@
+[
+  {
+    "url": "/market",
+    "en": {
+      "title": "Cryptocurrency Market | Coin Prices & Market Cap | Nami Exchange",
+      "description": "Find out the latest cryptocurrency prices, news, market highlights and charts at Nami Exchange - The oldest exchange with the largest Bitcoin and Altcoin trading volume in Vietnam. Select your market to see full history and prices in real time.",
+      "keywords": "Cryptocurrency price, List of Cryptocurrencies, Market Cap"
+    },
+    "vi": {
+      "title": "Cryptocurrency Market | Coin Prices & Market Cap | Nami Exchange",
+      "description": "Tìm hiểu biểu đồ, tin tức, điểm nổi bật của thị trường và giá tiền mã hóa mới nhất tại Nami Exchange - Sàn giao dịch lâu năm, có khối lượng giao dịch bitcoin và altcoin lớn nhất tại việt nam. Chọn thị trường của bạn để xem toàn bộ lịch sử và giá trong thời gian thực.",
+      "keywords": "Giá tiền mã hóa, Danh sách tiền mã hóa, Vốn hóa thị trường"
+    }
+  },
+  {
+    "url": "/futures.*",
+    "en": {
+      "title": "Trade $BTCUSDT Perpetual Contracts (realistically visible token pair) on Nami Futures - Vietnam's leading crypto futures exchange with high liquidity and low fees.",
+      "description": "Find out the latest cryptocurrency prices, news, market highlights and charts at Nami Exchange - The oldest exchange with the largest Bitcoin and Altcoin trading volume in Vietnam.",
+      "keywords": "Blockchain Crypto Exchange, Cryptocurrency Exchange, Bitcoin Trading, Ethereum price trend, BNB, BTC price, ETH wallet registration, Binance, Poloniex, Bittrex"
+    },
+    "vi": {
+      "title": "Giao dịch hợp đồng Vĩnh cửu $BTCUSDT (cặp token hiển thị theo thực tế) trên Nami Futures - sàn giao dịch tiền mã hóa theo hình thức hợp đồng tương lai hàng đầu việt nam với tính thanh khoản cao và mức phí thấp.",
+      "description": "Tìm hiểu biểu đồ, tin tức, điểm nổi bật của thị trường và giá tiền mã hóa mới nhất tại Nami Exchange - Sàn giao dịch lâu năm, có khối lượng giao dịch bitcoin và altcoin lớn nhất tại việt nam.",
+      "keywords": "Sàn giao dịch Blockchain Crypto, Sàn giao dịch tiền mã hóa, Giao dịch Bitcoin, xu hướng giá Ethereum, BNB, giá BTC, đăng ký ví ETH, Binance, Poloniex, Bittrex"
+    }
+  },
+  {
+    "url": "/support/faq.*",
+    "en": {
+      "title": "Support Center - If you have problems using Nami Exchange's services, find answers at the FAQ support center",
+      "description": "Welcome to Nami Exchange's support center platform. Your experience and success is important to us. So we are here to help you. You just need to choose a keyword and follow the instructions.",
+      "keywords": "Nami Exchange Support Center"
+    },
+    "vi": {
+      "title": "Trung tâm hỗ trợ - Nếu bạn gặp vấn đề khi dùng dịch vụ của Nami Exchange, hãy tìm câu trả lời tại trung tâm hỗ trợ FAQ",
+      "description": "Chào mừng bạn đến với nền tảng trung tâm hỗ trợ của Nami Exchange. Trải nghiệm và thành công của bạn là điều quan trọng đối với chúng tôi. Vậy nên chúng tôi ở đây để giúp đỡ bạn. Bạn chỉ cần chọn từ khoá và làm theo hướng dẫn.",
+      "keywords": "Trung tâm hỗ trợ sàn giao dịch Nami Exchange"
+    }
+  },
+  {
+    "url": "/support/announcement.*",
+    "en": {
+      "title": "Notice | Nami Exchange Announcement | Nami Exchange Support",
+      "description": "Find out the latest cryptocurrency prices, news, market highlights and charts at Nami Exchange - The oldest exchange with the largest Bitcoin and Altcoin trading volume in Vietnam.",
+      "keywords": "Nami Exchange Support Center"
+    },
+    "vi": {
+      "title": "Thông báo | Nami Exchange Announcement | Nami Exchange Support",
+      "description": "Tìm hiểu biểu đồ, tin tức, điểm nổi bật của thị trường và giá tiền mã hóa mới nhất tại Nami Exchange - Sàn giao dịch lâu năm, có khối lượng giao dịch bitcoin và altcoin lớn nhất tại việt nam.",
+      "keywords": "Trung tâm thông báo sàn giao dịch Nami Exchange"
+    }
+  },
+  {
+    "url": ".*",
+    "en": {
+      "title": "Buy/Sell Bitcoin, Ether and Altcoin | Safety Spot and Future Exchange | Nami Exchange",
+      "description": "Nami Cryptocurrency Exchange - The oldest exchange, with the largest bitcoin and altcoin trading volume in Vietnam",
+      "keywords": "Buy/Sell Bitcoin, Ether and Altcoin, Safety Spot and Futures Exchange, Nami Exchange"
+    },
+    "vi": {
+      "title": "Mua/bán Bitcoin, Ether và Altcoin | Sàn giao dịch Spot và Futures an toàn | Nami Exchange",
+      "description": "Sàn giao dịch tiền mã hóa Nami Exchange - Sàn giao dịch lâu năm, có khối lượng giao dịch bitcoin và altcoin lớn nhất tại việt nam",
+      "keywords": "Mua/bán Bitcoin, Ether và Altcoin, Sàn giao dịch Spot và Futures, Nami Exchange"
+    }
+  }
+]

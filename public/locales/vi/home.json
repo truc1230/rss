@@ -1,0 +1,127 @@
+{
+  "introduce": {
+    "title_mobile": "Sàn giao dịch Spot và Futures an toàn",
+    "title_desktop1": "Sàn giao dịch Spot và",
+    "title_desktop2": "Futures an toàn",
+    "description": "Với nền tảng đầu tư và giao dịch tiền điện tử hiệu quả nhất",
+    "total_order_paid": "Khối lượng giao dịch 24h",
+    "total_user": "Tổng lượng người dùng",
+    "total_pairs": "Tổng số cặp giao dịch"
+  },
+  "markettrend": {
+    "title": "Xu hướng thị trường",
+    "top_gainer": "Top tăng giá",
+    "top_loser": "Top giảm giá",
+    "top_vol": "Hot 24h",
+    "explore_market": "Khám phá thêm"
+  },
+  "first_award": {
+    "title": "Tham gia Nami Exchange ngay!",
+    "title_1": "Sở hữu ngay {{value}} đầu",
+    "title_2": "tiên trong tài khoản",
+    "rule_1": "1. Thao tác tối giản",
+    "rule_2": "2. Khả năng xử lý <0>40,000+</0> giao dịch/giây",
+    "rule_3": "3. <0>400+</0> cặp giao dịch",
+    "rule_4": "4.Đòn bẩy Futures lên tới <0>125x</0>",
+    "rule_5": "5. Phí giao dịch chỉ từ <0>0,06%</0>",
+    "rule_6": "6. Hỗ trợ <0>24/7</0>",
+    "following_at": "Theo dõi chúng tôi tại",
+    "join_nami_by": "Đăng kí tài khoản bằng"
+  },
+  "journey": {
+    "title": "Bắt đầu hành trình của bạn",
+    "description_mobile": "Nami Exchange là nơi lý tưởng để bạn giao dịch cũng như thay đổi cách suy nghĩ của bạn về tài chính",
+    "description_desktop1": "Nami Exchange là nơi lý tưởng để bạn giao dịch cũng như thay đổi cách suy",
+    "description_desktop2": "nghĩ của bạn về tài chính",
+    "reason_1": "Tối đa hoá lợi nhuận",
+    "reason_1_description": "Giao dịch với đòn bẩy lên đến x125 tại Nami Futures (giao dịch hợp đồng tương lai).",
+    "reason_2": "Copy Trade (sắp ra mắt)",
+    "reason_2_description": "Đa dạng hoá phương thức đầu tư với tính năng sao chép lệnh giao dịch cũng phần trăm lợi nhuận từ những đầu tư kinh nghiệm nhất khi tham gia Nami Futures.",
+    "reason_3": "Sở hữu Token tiềm năng với giá ưu đãi",
+    "reason_3_description": "Cung cấp các dự án uy tín ra mắt lần đầu tiên tại Nami Launchpad và những token tiềm năng với giá chào bán thấp hơn thị trường tại NextGem.",
+    "reason_4": "Nâng cao kiến thức về tiền mã hoá",
+    "reason_4_description": "Nami Explaied - Nơi mang đến câu trả lời cho câu hỏi tại sao trong thị trường Crypto"
+  },
+  "intro_app": {
+    "title_1": "Giao dịch mọi lúc, mọi nơi",
+    "title_2": "ứng dụng Nami Exchange",
+    "description": "Nạp, rút và giao dịch 24/7 trên ứng dụng dành cho IOS và Android"
+  },
+  "trade3step": {
+    "title": "Giao dịch ngay chỉ với 3 bước",
+    "step_1": "Tạo tài khoản",
+    "step_2": "Nạp Fiat/Crypto",
+    "step_3": "Bắt đầu giao dịch",
+    "chill_a_bit": "Chỉ 30 giây"
+  },
+  "why_nami": {
+    "title": "Tại sao lại chọn",
+    "description": "Những lý do bạn nên chọn Nami là nơi giao dịch và đầu tư",
+    "reason_1": "200,000+ người đăng kí",
+    "reason_1_description":"Trung bình 30 phút có đến 9 nhà đầu tư lựa chọn Nami Exchange",
+    "reason_2": "Đầu tư đa dạng",
+    "reason_2_description": "Với {{value}} cặp giao dịch sẽ giúp các nhà đầu tư có nhiều sự lựa chọn",
+    "reason_3": "Phí giao dịch âm",
+    "reason_3_description": "Một trong những sàn hiếm hoi có mức phí giao dịch âm với take fee {{value}}",
+    "reason_4": "Hỗ trợ 24/7",
+    "reason_4_description": "Luôn có nhân viên hỗ trợ trực tiếp đa ngôn ngữ 24/7"
+  },
+  "user_activity": {
+    "trading_type": "Loại giao dịch",
+    "status": "Trạng thái",
+    "token_name": "Tên token",
+    "quantity": "Số lượng",
+    "time": "Thời gian"
+  },
+  "community": {
+    "title": "Cộng đồng Nami Exchange",
+    "description_mobile": "Với hơn 10 nghìn thành viên trên các cộng đồng quốc tế và Việt Nam, tham gia ngay để trao đổi và trò chuyện với các nhà đầu tư và nhận hỗ trợ 24/7 cùng chúng tôi.",
+    "description_desktop1": "Với hơn 10 nghìn thành viên trên các cộng đồng quốc tế và Việt Nam, tham gia ngay",
+    "description_desktop2": "để trao đổi và trò chuyện với các nhà đầu tư và nhận hỗ trợ 24/7 cùng chúng tôi."
+  },
+  "section_1": {
+    "title": "Nami Exchange",
+    "description": "Giao dịch tài sản số an toàn, tiện lợi </1> và nhanh chóng.",
+    "button": "Đăng ký ngay",
+    "banner": "Ra mắt phiên bản Beta của ứng dụng Nami Exchange vào ngày 20/05"
+  },
+  "section_2": {
+    "button": "Đi đến Thị trường"
+  },
+  "section_3": {
+    "title": "Mua bán tài sản số thật đơn giản với Nami Exchange",
+    "description": "Tối ưu hoá trải nghiệm giao dịch",
+    "feature_fast": "Nạp rút nhanh chóng",
+    "feature_fast_description": "Nạp rút tài sản số nhanh chóng, thuận tiện và hoàn toàn MIỄN PHÍ.",
+    "feature_fast_button": "Giao dịch ngay",
+    "feature_ui": "Giao diện tinh gọn",
+    "feature_ui_description": "Giao diện tối giản, thân thiện với người dùng mới và cả các chuyên gia tiền kỹ thuật số.",
+    "feature_ui_button": "Tải ứng dụng",
+    "feature_instant": "Dịch vụ tức thì",
+    "feature_instant_description": "Đội ngũ chuyên viên của Nami Exchange luôn sẵn sàng hỗ trợ bạn trong thời gian ngắn nhất.",
+    "feature_instant_button": "Xem thêm"
+  },
+  "section_4": {
+    "title": "<0>Nami</0><br />Trading Platform",
+    "description": "Giao diện trực quan với bảng gía cập nhật thời gian thực, cùng với các công cụ biểu đồ và quy trình đặt lệnh đơn giản để khách hàng có thể giao dịch ngay từ lần trải nghiệm đầu tiên",
+    "button": "Theo dõi thị trường"
+  },
+  "section_5": {
+    "title": "<0>Nami</0><br />Signals Alert",
+    "description": "Tối ưu hoá lợi nhuận của các nhà giao dịch crypto chuyên nghiệp và tiết kiệm thời gian/công sức bằng cách tự động hoá một phần quá trình ra quyết định giao dịch của họ.",
+    "button": "Bắt đầu giao dịch"
+  },
+  "section_6": {
+    "title": "<0>Nami</0><br />Crypto Masterified",
+    "description": "Các chuyên gia tư vấn đầu tư có thể xây dựng hồ sơ chuyên nghiệp và được kiểm chứng bởi đội ngũ Nami. Có thể chia sẻ các Portfolio và Signals cho các Followers.",
+    "button": "Bắt đầu giao dịch"
+  },
+  "section_7": {
+    "title": "Bắt đầu giao dịch chỉ với vài bước",
+    "description": "Nami là sàn giao dịch tối ưu cho nhà đầu tư Việt",
+    "step_1": "Tạo tài khoản",
+    "step_2": "Xác thực tài khoản",
+    "step_3": "Bắt đầu giao dịch",
+    "button": "Tạo tài khoản"
+  }
+}

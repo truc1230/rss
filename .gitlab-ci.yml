@@ -1,0 +1,63 @@
+
+stages:
+  - test
+  - build
+  - deploy
+
+
+
+cache:
+  paths:
+    - node_modules/
+#test-dev:
+#  stage: test
+#  environment:
+#    name: development
+#  tags:
+#    - attlas-dev
+#  script:
+#    - yarn && yarn lint
+#  only:
+#    - dev
+
+deploy-dev:
+  stage: deploy
+  environment:
+    name: development
+  tags:
+    - attlas-dev
+  before_script:
+    - whoami
+  script:
+#    - cp -r -u * /data/attlas-exchange-web
+    - cd /data/attlas-exchange-web
+    - git fetch origin && git reset --hard @{u}
+#    Sentry setup
+    - echo "project token $SENTRY_AUTH_TOKEN"
+    - echo "project org $SENTRY_ORG"
+    - VERSION=$VERSION
+    - export SENTRY_VERSION=$VERSION
+    - echo "sentry version $SENTRY_VERSION"
+    - echo "project version $VERSION"
+#    - sentry-cli releases new -p attlas-exchange-web $VERSION --log-level=debug
+#    - sentry-cli releases set-commits --auto $VERSION
+#    Build
+    - yarn && yarn build
+    - SENTRY_VERSION=$SENTRY_VERSION pm2 restart ecosystem.dev.config.js
+  only:
+    - dev
+
+
+deploy-production:
+  stage: deploy
+  environment:
+    name: production
+  tags:
+    - gitlab-runner-prod
+  before_script:
+    - whoami
+  script:
+    - /data/ansible/deploy-web.sh
+  only:
+    - master
+#  when: manual

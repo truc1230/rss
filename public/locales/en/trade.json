@@ -1,0 +1,10 @@
+{
+    "order_types": {
+        "limit": "Limit",
+        "market": "Market",
+        "stop_limit": "Stop Limit",
+        "stop_market": "Stop Market",
+        "trailing_stop": "Trailing Stop",
+        "post_only": "Post Only"
+    }
+}

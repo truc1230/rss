@@ -1,0 +1,119 @@
+{
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "requireConfigFile": false
+    },
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import",
+        "react-hooks"
+    ],
+    "rules": {
+        "arrow-body-style": 0,
+        "arrow-parens": "off",
+        "camelcase": "off",
+        "consistent-return": 0,
+        "function-paren-newline": 0,
+        "global-require": "off",
+        "import/prefer-default-export": "off",
+        "indent": [
+            2,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "jsx-a11y/alt-text": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "jsx-a11y/anchor-is-valid": 0,
+        "jsx-a11y/click-events-have-key-events": 0,
+        "jsx-a11y/href-no-hash": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/no-static-element-interactions": 0,
+        "linebreak-style": 0,
+        "max-len": "off",
+        "no-bitwise": 0,
+        "no-lonely-if": 0,
+        "no-mixed-operators": "off",
+        "no-plusplus": 0,
+        "no-tabs": 0,
+        "no-underscore-dangle": "off",
+        "no-prototype-builtins": "off",
+        "no-unused-vars": [
+            "error",
+            {
+                "args": "none",
+                "ignoreRestSiblings": true,
+                "vars": "all"
+            }
+        ],
+        "object-curly-newline": 0,
+        "operator-linebreak": 0,
+        "prefer-destructuring": 1,
+        "prefer-template": 0,
+        "quote-props": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/rules-of-hooks": "error",
+        "react/destructuring-assignment": 0,
+        "react/forbid-prop-types": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/jsx-indent": [
+            2,
+            4
+        ],
+        "react/jsx-indent-props": [
+            2,
+            4
+        ],
+        "react/jsx-one-expression-per-line": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/jsx-uses-react": "off",
+        "react/jsx-wrap-multilines": 0,
+        "react/no-array-index-key": 0,
+        "react/no-danger": 0,
+        "react/no-string-refs": 0,
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/state-in-constructor": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".android.js",
+                    ".ios.js",
+                    ".jsx"
+                ]
+            },
+            "babel-module": {
+                "alias": {
+                    "src": "./src",
+                    "public": "./public",
+                    "components": "./src/components",
+                    "pages": "./src/pages",
+                    "utils": "./src/utils"
+                }
+            }
+        }
+    },
+    "globals": {
+        "chrome": true,
+        "document": true,
+        "fetch": true,
+        "FormData": true,
+        "localStorage": true,
+        "sessionStorage": true,
+        "window": true
+    }
+}

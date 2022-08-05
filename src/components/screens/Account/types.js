@@ -1,0 +1,59 @@
+export default {
+    REWARD_TYPE: {
+        PROMOTION: 'PROMOTION',
+        CLAIMABLE: 'CLAIMABLE'
+    },
+    STATUS: {
+        COMING_SOON: 1,
+        AVAILABLE: 2,
+        NOT_AVAILABLE: 3,
+        ENDED: 4
+    },
+    TASK_STATUS: {
+        NOT_AVAILABLE: 0,
+        AVAILABLE: 1
+    },
+    // Condition
+    TASK_CONDITION: {
+        PROGRESS: 'PROGRESS',
+        SINGLE_MISSION: 'SINGLE_MISSION',
+        MULTI_MISSION: 'MULTI_MISSION'
+    },
+    TASK_CTA_TYPE: {
+        URL: 'url'
+    },
+    TASK_HISTORY_STATUS: {
+        PENDING: 0,
+        FINISHED: 1,
+    },
+    TASK_HISTORY_CLAIM_STATUS: {
+        PENDING: 0,
+        CLAIMED: 1,
+    },
+    TASK_CATEGORY: {
+        USER_KYC: 'USER_KYC',
+        WALLET_WITHDRAW: 'WALLET_WITHDRAW',
+        WALLET_DEPOSIT: 'WALLET_DEPOSIT',
+        WALLET_TRANSFER: 'WALLET_TRANSFER',
+        WALLET_BUY_VIA_PARTNER: 'WALLET_BUY_VIA_PARTNER',
+        SPOT_BUY: 'SPOT_BUY',
+        SPOT_SELL: 'SPOT_SELL',
+        SPOT_ALL: 'SPOT_ALL',
+        FUTURES_BUY: 'FUTURES_BUY',
+        FUTURES_SELL: 'FUTURES_SELL',
+        FUTURES_ALL: 'FUTURES_ALL',
+        CLAIM: 'CLAIM'
+    },
+    CLAIM_STATUS: {
+        NOT_AVAILABLE: 'NOT_AVAILABLE',
+        AVAILABLE: 'AVAILABLE',
+        CLAIMED: 'CLAIMED'
+    },
+    CLAIM_RESULT: {
+        INVALID_USER: 'INVALID_USER',
+        INVALID_MISSION: 'INVALID_MISSION',
+        INVALID_TIME: 'INVALID_TIME',
+        INVALID_CLAIM_STATUS: 'INVALID_CLAIM_STATUS',
+        INVALID_STATUS: 'INVALID_STATUS'
+    }
+}

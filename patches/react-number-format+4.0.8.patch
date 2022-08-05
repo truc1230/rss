@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-number-format/lib/number_format.js b/node_modules/react-number-format/lib/number_format.js
+index 9db57cb..0be0bff 100644
+--- a/node_modules/react-number-format/lib/number_format.js
++++ b/node_modules/react-number-format/lib/number_format.js
+@@ -655,7 +658,7 @@ function (_React$Component) {
+       var _this$selectionBefore = this.selectionBeforeInput,
+           selectionStart = _this$selectionBefore.selectionStart,
+           selectionEnd = _this$selectionBefore.selectionEnd;
+-
++      if (this.props.preChange) value = this.props.preChange(value)
+       var _findChangedIndex = (0, _utils.findChangedIndex)(lastValue, value),
+           start = _findChangedIndex.start,
+           end = _findChangedIndex.end;

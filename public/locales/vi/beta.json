@@ -1,0 +1,39 @@
+{
+  "section_1": {
+    "program": "Chương trình",
+    "subtitle": "Trải nghiệm phiên bản Beta để có cơ hội",
+    "title": "Giới Thiệu Bạn Bè",
+    "description": "Mời bạn bè cùng trải nghiệm Phiên bản đầu tiên của Nami Exchange. Đổi lấy cơ hội được Đảm bảo quyền mua<1/><2>ATS TRONG LAUNCHPAD LẦN 2 KÈM 01 CHIẾC ĐIỆN THOẠI IPHONE 12 PROMAX</2>",
+    "description_2": "Mời càng nhiều bạn bè, cơ hội trúng giải càng lớn!",
+    "end_time": "Chương trình kết thúc sau",
+    "download": "Tải Ứng Dụng"
+  },
+  "section_2": {
+    "title": "Giải Thưởng",
+    "description": "Dành cho 5 người dùng giới thiệu thành công được nhiều bạn bè nhất",
+    "prize_1": "01 GIẢI NHẤT",
+    "prize_1_price": "<0>01 suất duy nhất đảm bảo quyền mua ATS trong Launchpad lần 2,</0> kèm 01 chiếc điện thoại iPhone 12 Promax trị giá 32.000.000 VNDC",
+    "prize_1_currency": "",
+    "prize_2": "01 GIẢI NHÌ",
+    "prize_2_price": "15.000.000",
+    "prize_2_currency": "VNDC",
+    "prize_3": "01 GIẢI BA",
+    "prize_3_price": "10.000.000",
+    "prize_3_currency": "VNDC",
+    "prize_4": "01 GIẢI TƯ",
+    "prize_4_price": "5.000.000",
+    "prize_4_currency": "VNDC",
+    "prize_5": "01 GIẢI NĂM",
+    "prize_5_price": "2.000.000",
+    "prize_5_currency": "VNDC"
+  },
+  "refer_guide_title": "Hướng dẫn giới thiệu bạn bè",
+  "refer_guide_step_1": {
+      "first": "Đăng ký tài khoản tại",
+      "last": "hoặc trong ứng dụng Nami Exchange trên điện thoại"
+  },
+  "refer_guide_step_2": "Copy đường link giới thiệu trong mục Account",
+  "refer_guide_step_3": "Giới thiệu bạn bè đăng ký thành công tài khoản",
+  "refer_guide_step_4": "Tiếp tục mời thêm bạn bè để tăng cơ hội trúng thưởng",
+  "ranking": "Bảng xếp hạng"
+}

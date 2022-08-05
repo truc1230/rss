@@ -1,0 +1,19 @@
+{
+    "webcredentials": {
+        "apps": [
+            "463J59SZNF.com.namicorp.exchange"
+        ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "463J59SZNF.com.namicorp.exchange",
+            "paths": [
+                "*/trade/*",
+                "*/futures/*",
+                "*/wallet*",
+                "NOT */event/*"
+            ]
+        }]
+    }
+}

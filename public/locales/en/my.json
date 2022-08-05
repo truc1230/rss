@@ -1,0 +1,8 @@
+{
+    "account": "Account",
+    "bank_account": "Payment method",
+    "kyc": "Account verification",
+    "security": "Security",
+    "api_management": "API Management",
+    "referral": "Referral"
+}

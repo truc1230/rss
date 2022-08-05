@@ -1,0 +1,48 @@
+{
+  "competition_1": {
+    "section_1": {
+      "program": "Cuộc thi",
+      "title": "VÔ ĐỊCH GIAO DỊCH CÙNG",
+      "description": "Cuộc thi đầu tư trên nền tảng Nami Exchange với tổng giải thưởng hơn 50.000.000 VNDC dành cho các nhà đầu tư có tổng khối lượng giao dịch (bao gồm cả mua và bán) lớn nhất.",
+      "description_2": "ĐẶC BIỆT: Giảm 50% phí giao dịch khi đã tham gia Nami Membership",
+      "time_from": "Thời gian diễn ra",
+      "end_time": "Chương trình kết thúc sau",
+      "start_time": "Chương trình bắt đầu sau",
+      "button": "Bắt đầu chặng đua"
+    },
+    "section_2": {
+      "title": "Giải Thưởng",
+      "description": "Giải thưởng dành cho top 03 người chơi đạt mức khối lượng giao dịch (cả mua & bán) cao nhất",
+      "prize_1": "GIẢI NHẤT: 20.000.000 VNDC",
+      "prize_2": "GIẢI NHÌ: 10.000.000 VNDC",
+      "prize_3": "GIẢI BA: 5.000.000 VNDC",
+      "prize_4": "GIẢI PHỤ: 10.000.000 VNDC",
+      "prize_4_desc": "Dành cho TOP 01 người chơi có ATS trading volume lớn nhất"
+    },
+    "section_3": {
+      "title": "Hướng dẫn tham gia cuộc thi",
+      "01": "Đăng nhập hoặc Đăng ký tài khoản Nami Exchange tại https://nami.exchange ",
+      "02": "Vào mục \"Thị trường\" hoặc \"Giao dịch\" trên thanh công cụ tại màn hình chính",
+      "03": "Chọn đồng tiền điện tử bạn muốn giao dịch",
+      "04": "Bắt đầu\ngiao dịch spot "
+    },
+    "section_4": {
+      "title": "Bảng xếp hạng",
+      "description": "Sắp xếp thứ tự dựa theo tổng khối lượng giao dịch (cả mua & bán) của từng người chơi trong thời gian diễn ra cuộc thi: 26/07 - 26/08",
+      "total_vol": "TỔNG KHỐI LƯỢNG GIAO DỊCH CỦA CẢ CUỘC THI",
+      "rank": "Xếp hạng",
+      "username": "Tên người dùng",
+      "volume": "Tổng khối lượng giao dịch",
+      "volume_ats": "Khối lượng giao dịch ATS",
+      "change_rank": "Thay đổi thứ hạng"
+    },
+    "section_5": {
+      "title": "Điều khoản",
+      "description_1": "Tài khoản người chơi được tính là hợp lệ khi đã xác thực tài khoản (KYC) thành công",
+      "description_2": "Phần thưởng sẽ được chuyển trực tiếp vào ví Nami của người thắng giải.",
+      "description_3": "Bảng xếp hạng dựa trên tổng khối lượng giao dịch (bao gồm mua & bán) trong thời gian cuộc thi diễn ra: 26/07/2021 đến 26/08/2021",
+      "description_4": "Người chơi sẽ bị tước quyền tham gia và giải thưởng nếu Nami Exchange phát hiện bất cứ trường hợp gian lận nào.",
+      "description_5": "Áp dụng cho giao dịch Spot qua các cặp giao dịch với VNDC trên nền tảng Nami Exchange"
+    }
+  }
+}

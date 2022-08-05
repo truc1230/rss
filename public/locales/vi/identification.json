@@ -1,0 +1,26 @@
+{
+    "title": "Xác minh tài khoản",
+    "title_2": "Yêu cầu xác minh",
+    "title_3": "Các tính năng hiện tại",
+    "personal": "Thông tin cá nhân",
+    "government": "ID do chính phủ cấp",
+    "facial": "Nhận dạng khuân mặt",
+    "timer": "Thời gian xét duyệt: 10 ngày",
+    "qr_1": "Quét mã bằng ứng dụng Nami Exchange",
+    "qr_2": "để bắt đầu quy trình KYC",
+    "buy_sell": "Mua và bán tiền điện tử thông qua Partner Limit",
+    "price_daily": "200,000,000 VNDC hàng ngày",
+    "withdrawal": "Giới hạn rút tiền",
+    "unlimited": "Không giới hạn",
+    "deposit": "Giới hạn gửi tiền",
+    "other": "Tính năng khác",
+    "reward": "Phần thưởng",
+    "account": {
+        "not_verified": "Tài khoản của bạn chưa được xác minh.",
+        "process": "KYC của bạn đang trong quá trình xét duyệt",
+        "congratulations": "Xin chúc mừng!",
+        "not_verified_2": "Hoàn tất xác minh để truy cập các dịch vụ của Nami",
+        "verified": "Tài khoản của bạn đã được xác minh thành công!"
+    },
+    "title_tab": "Nhận dạng"
+}

@@ -1,0 +1,128 @@
+{
+  "introduce": {
+    "title_mobile": "Secure Spots and Futures Exchange",
+    "title_desktop1": "Secure Spots and",
+    "title_desktop2": "Futures Exchange",
+    "description": "With the most effective cryptocurrency trading<br/>and investment platform",
+    "total_order_paid": "24h Volume",
+    "total_user": "Total Number Of Users",
+    "total_pairs": "Total Trading Pairs"
+  },
+  "markettrend": {
+    "title": "Market Trend",
+    "top_gainer": "Top Gainer",
+    "top_loser": "Top Loser",
+    "top_vol": "Hot 24h",
+    "explore_market": "Explore Market"
+  },
+  "first_award": {
+    "title": "Join Nami Exchange now!",
+    "title_1": "Own The First {{value}} In",
+    "title_2": "Your Account Immediately",
+    "rule_1": "1. Simple operation",
+    "rule_2": "2. Ability to process <0>40,000+</0> transactions/second",
+    "rule_3": "3. <0>400+</0> trading pairs",
+    "rule_4": "4. Futures leverage up to <0>125x</0>",
+    "rule_5": "5. Transaction fees only from <0>0,06%</0>",
+    "rule_6": "6. <0>24/7</0> supporting",
+    "following_at": "Follow Us At",
+    "join_nami_by": "Register an account with"
+  },
+  "journey": {
+    "title": "Start Your Cryptocurrency Journey",
+    "description_mobile": "Nami Exchange is the ideal place for you to trade and change the way you think about finance",
+    "description_desktop1": "Nami Exchange is the ideal place for you to trade and change the way you",
+    "description_desktop2": "think about finance",
+    "reason_1": "Maximize Profit",
+    "reason_1_description": "Trading with the leverage up to x125 (Futures trading)",
+    "reason_2": "Copy Trade (coming soon)",
+    "reason_2_description": "Diversify investment methods with the feature of copying orders and also a percentage of profit from the most experienced investments when participating in Nami Futures.",
+    "reason_3": "Possessing potential Tokens at a favorable price",
+    "reason_3_description": "Offering prestigious projects first launched at Nami Launchpad and potential tokens with lower-than-market asking prices at NextGem.",
+    "reason_4": "Improve Your Knowledge Of Cryptocurrencies",
+    "reason_4_description": "Nami Explained - The place to answer questions about the Crypto market"
+  },
+  "intro_app": {
+    "title_1": "Trade Anytime Anywhere With",
+    "title_2": "Nami Exchange application",
+    "description": "Deposit, withdraw and trade 24/7 on iOS and Android apps"
+  },
+  "trade3step": {
+    "title": "Trading Now With Just 3 Steps",
+    "step_1": "Create Account",
+    "step_2": "Deposits Fiat/Crypto",
+    "step_3": "Start Trading",
+    "chill_a_bit": "Only 30 seconds"
+  },
+  "why_nami": {
+    "title": "Why Choose",
+    "description": "The reasons you should choose Nami as a place to trade and invest",
+    "reason_1": "200,000+ Subscribers",
+    "reason_1_description":"Every 30 minutes on average, 9 investors choose Nami Exchange",
+    "reason_2": "Diversified Investment",
+    "reason_2_description": "With {{value}} trading pairs, investors will be provied many choices",
+    "reason_3": "Negative Transaction Fee",
+    "reason_3_description": "One of the rare exchanges with a take fee of {{value}}",
+    "reason_4": "24/7 Support",
+    "reason_4_description": "Support is available 24/7 in multi-language"
+  },
+  "user_activity": {
+    "trading_type": "Trading Type",
+    "status": "Status",
+    "token_name": "Token Name",
+    "quantity": "Quantity",
+    "time": "Time"
+  },
+  "community": {
+    "title": "Nami Exchange Community",
+    "description_mobile": "With more than 10,000 members across the international and Vietnamese communities, join now to exchange and chat with investors and get 24/7 support with us.",
+    "description_desktop1": "With more than 10,000 members across the international and Vietnamese communities,",
+    "description_desktop2": "join now to exchange and chat with investors and get 24/7 support with us."
+  },
+  "title": "Anasayfa",
+  "section_1": {
+    "title": "Nami Exchange",
+    "description": "A digital asset exchange that delivers simple </1> and personalized investment experience",
+    "button": "Register",
+    "banner": "Ra mắt phiên bản Beta của ứng dụng Nami Exchange vào ngày 20/05"
+  },
+  "section_2": {
+    "button": "Go to Markets"
+  },
+  "section_3": {
+    "title": "Optimize the experience & solve Vietnam-specific investor’s current problems when investing in cryptocurrency",
+    "description": "Trading experience optimized",
+    "feature_fast": "Quick deposit/withdrawal process",
+    "feature_fast_description": "Depositing and withdrawing digital assets is fast, convenient and completely FREE.",
+    "feature_fast_button": "Trade now",
+    "feature_ui": "Lean user Interface/User Experience",
+    "feature_ui_description": "A simple UI/UX design with only two base currencies of USDT and VNDC to minimize the fuss for first-time user",
+    "feature_ui_button": "Download App",
+    "feature_instant": "Instant customer service",
+    "feature_instant_description": "Round-the-clock customer service process that aims to handle all inquiries within five minutes",
+    "feature_instant_button": "Read more"
+  },
+  "section_4": {
+    "title": "<0>Nami</0><br />Trading Platform",
+    "description": "Simple, minimalist trading interface with real-time charts and order books.",
+    "button": "Follow markets"
+  },
+  "section_5": {
+    "title": "<0>Nami</0><br />Signals Alert",
+    "description": "Optimize performance of professional traders by semi-automating their trading process.",
+    "button": "Trade now"
+  },
+  "section_6": {
+    "title": "<0>Nami</0></1>Crypto Masterified",
+    "description": "Professional trader profile that is verified by Nami Exchange and its user community.",
+    "button": "Trade now"
+  },
+  "section_7": {
+    "title": "Bắt đầu giao dịch chỉ với vài bước",
+    "description": "Nami là sàn giao dịch tối ưu cho nhà đầu tư Việt",
+    "step_1": "Tạo tài khoản",
+    "step_2": "Xác thực tài khoản",
+    "step_3": "Bắt đầu giao dịch",
+    "button": "Tạo tài khoản"
+  }
+}

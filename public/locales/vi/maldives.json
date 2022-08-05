@@ -1,0 +1,61 @@
+{
+  "landing_page": {
+    "exp_compare_title": "Trải nghiệm khác biệt",
+    "compare": {
+      "previous_version": "Phiên bản trước",
+      "compare_1": "Tốc độ xử lý chưa tối ưu khi số lượng cặp giao dịch tăng nhanh.",
+      "compare_2": "Hệ thống chuyển lệnh bị nghẽn khi số lượng người dùng lớn.",
+      "compare_3": "Không có giao diện Dark Mode để giúp tiết kiệm pin.",
+      "compare_4": "Hệ thống Ví chưa tối ưu.",
+      "compare_m1": "Tăng tốc độ xử lý lên gấp 3, đáp ứng 500+ cặp giao dịch.",
+      "compare_m2": "Hệ thống tự động mở rộng hạ tầng khi lượng người dùng lớn.",
+      "compare_m3": "Ra mắt Dark Mode giúp cải thiện thời lượng pin thêm 30%.",
+      "compare_m4": "Gia tăng bảo mật.",
+      "compare_m5": "Tối ưu hóa trải nghiệm, giảm số lượng thao tác 50%."
+    },
+    "theming": {
+      "dark_mode": "\"Bầu trời đêm Maldives\" là cụm từ để<br/>lột tả về diện mạo này, Dark Mode tạo<br/>cảm giác chuyên nghiệp và an toàn cho<br/>trải nghiệm của người dùng.",
+      "light_mode": "Giao diện mang tính \"cổ điển\"<br />từ phiên bản cũ nhưng thay đổi<br/>với sự cải tiến về màu sắc.",
+      "mb_dark_mode": "Được truyền cảm hứng từ \"Bầu trời đêm Maldives\", Dark Mode tạo cảm giác chuyên nghiệp và an toàn cho trải nghiệm của người dùng.",
+      "mb_light_mode": "Giao diện mang tính \"cổ điển\" từ phiên bản trước nhưng thay đổi với sự cải tiến về màu sắc."
+    },
+    "attractive_features": {
+      "title": "Nhiều tính năng hấp dẫn",
+      "description": "Sản phẩm đa dạng và các tính năng được tối ưu hoá cho người dùng. Hệ sinh thái của Nami giúp phân bổ vốn và cập nhật kiến thức nhanh nhất từ thị trường.",
+      "favorite_portfolio": "Danh mục yêu thích",
+      "what_can_you_do": "Tính năng nổi bật",
+      "feature_1": "Tự do chọn lựa hơn 300 cặp token.",
+      "feature_2": "Phân loại sắp xếp theo thứ tự mong muốn.",
+      "feature_3": "Lưu lại lịch sử tìm kiếm."
+    },
+    "exchange_futures": {
+      "exchange": "Lệnh Giới hạn & Thị trường được tách riêng, giúp người dùng tránh những sai sót không đáng có.",
+      "open_orders": "Đặt lệnh nhanh chóng",
+      "open_orders_description": "Giao diện mới tích hợp nhiều tính năng và chuyển đổi nút giao dịch sang bên phải, tạo thuận lợi tối đa cho người dùng.",
+      "token_info": "Thông tin Token",
+      "token_info_description": "Giúp người dùng cập nhật những thông tin nổi bật về token, từ đó đưa ra quyết định đầu tư hợp lý.",
+      "futures_description": "Maldives mang đến cho người dùng Futures tốc độ xử lý lệnh nhanh hơn so với phiên bản tiền nhiệm, đi kèm với hơn 30 bộ chỉ báo hỗ trợ nhận định thị trường và giao dịch Futures một cách hiệu quả.",
+      "futures": "Hiểu được sự thuận tiện là yếu tố cần thiết khi giao dịch, Nami Maldives đã mang lại một giao diện tối giản và dễ sử dụng hơn. "
+    },
+    "wallet": {
+      "reason_1": "Tính năng hạn chế.",
+      "reason_2": "Ví Exchange và Futures chưa tích hợp.",
+      "reason_3": "Không hiển thị ví Staking và Farming.",
+      "m_reason_1": "Các ví Exchange, Futures, Staking, Farming được tích hợp chung giúp người dùng quản lý tài sản thuận lợi.",
+      "m_reason_2": "Dễ dàng lựa chọn token để Nạp / Rút / Chuyển đổi giữa các ví.",
+      "m_reason_3": "Tính năng Chuyển đổi số dư nhỏ thành NAMI (sắp ra mắt)."
+    },
+    "method_kyc": {
+      "title": "Phương thức thanh toán & KYC",
+      "payment": "Thanh toán",
+      "payment_description": "Với phiên bản Maldives, người dùng có thể sử dụng tài khoản ngân hàng của mình như một phương thức thanh toán trực tiếp.",
+      "kyc_description": "Bảo vệ thông tin và tài sản của người dùng là tôn chỉ hoạt động của Nami, quy trình này được thực hiện thông qua quá trình xác minh nghiêm ngặt.",
+      "depwdl": "Nạp / Rút",
+      "depwdl_description": "Nạp/Rút trực tiếp,  nhanh chóng, thuận tiện chỉ bằng một bước chạm."
+    },
+    "more": {
+      "title": "Và còn nhiều nâng cấp sắp tới",
+      "subtitle": "Ra mắt vào tháng 11"
+    }
+  }
+}
