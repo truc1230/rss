@@ -1,8 +1,10 @@
 /* eslint-disable no-alert, no-console */
 
-import { appWithTranslation, useTranslation } from 'next-i18next';
-import 'public/css/font.css';
-import 'src/styles/app.scss';
+// import { appWithTranslation, useTranslation } from 'next-i18next';
+
+import { appWithTranslation, useTranslation } from "next-i18next";
+import "../styles/app.scss";
+import "../../public/css/font.css";
 
 const App = ({
     Component,
