@@ -8,11 +8,10 @@ const App = ({
     Component,
     pageProps
 }) => {
-
     const {
         i18n: { language },
     } = useTranslation();
-    console.log(language);
+
     return (
         <>
 

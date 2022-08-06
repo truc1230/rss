@@ -2,8 +2,6 @@
 const colors = require('tailwindcss/colors');
 const defaultTheme = require("tailwindcss/defaultTheme");
 
-
-// Common colors
 const commonColors = {
     transparent: 'transparent',
 
@@ -74,6 +72,7 @@ const commonColors = {
     }
 };
 
+
 module.exports = {
     // future: {
     //     removeDeprecatedGapUtilities: true,
@@ -88,6 +87,109 @@ module.exports = {
     theme: {
         container: {
             center: true,
+        },
+        colors: {
+            primary: "#EB2B3E",
+            "text-pr": "#22313F",
+            "text-sc": "#808890",
+            transparent: 'transparent',
+            current: 'currentColor',
+
+
+            dominant: commonColors.teal,
+            listItemSelected: {
+                DEFAULT: commonColors.lightTeal,
+                dark: commonColors.darkBlue3,
+            },
+
+            divider: {
+                DEFAULT: commonColors.gray4,
+                dark: '#202C4C',
+            },
+
+            //--------------------------------------------
+            black: {
+                DEFAULT: '#02083D',
+                5: '#F7F6FD', // 9
+                50: '#F8F7FA', // 8
+                100: '#F6F9FC', // 7
+                200: '#EEF2FA', // 6
+                300: '#E1E2ED', // 5
+                400: '#C5C6D2', // 4
+                500: '#8B8C9B', // 3
+                600: '#3e3b3b', // 2
+                700: '#02083D', // 1,
+                800: '#000000',
+            },
+            white: colors.white,
+            blue: {
+                DEFAULT: '#384562',
+                50: '#eff6ff',
+                100: '#dbeafe',
+                200: '#bfdbfe',
+                300: '#a7acb9',
+                400: '#9198a8',
+                500: '#7a8396',
+                600: '#646e85',
+                700: '#4e5973',
+                800: '#384562',
+                900: '#223050',
+            },
+            darkBlue: {
+                DEFAULT: '#223050',
+                1: commonColors.darkBlue1,
+                2: commonColors.darkBlue2,
+                3: commonColors.darkBlue3,
+                4: commonColors.darkBlue4,
+                5: commonColors.darkBlue5,
+                '5a': 'rgba(123, 140, 178, 0.8)',
+            },
+            gray: {
+                DEFAULT: '#8D9091',
+                ...colors.gray,
+                1: commonColors.gray1,
+                2: commonColors.gray2,
+                3: commonColors.gray3,
+                4: commonColors.gray4,
+                5: commonColors.gray5,
+            },
+            teal: {
+                DEFAULT: '#00C8BC',
+                5: '#03bdce17',
+                50: '#b3efeb',
+                100: '#99e9e4',
+                200: '#80e4de',
+                300: '#4dd9d0',
+                400: '#33d3c9',
+                500: '#1acec3',
+                600: '#00C8BC',
+                700: '#00C8BC',
+                lightTeal: '#E2F6F5',
+                opacity: 'rgba(0, 200, 188, 0.5)',
+                opacitier: 'rgba(0, 200, 188, 0.1)',
+            },
+            green: {
+                DEFAULT: '#22B02E',
+                opacity: 'rgba(34, 176, 46, 0.18)',
+            },
+            yellow: { DEFAULT: '#FFD965' },
+            red: {
+                DEFAULT: '#E5544B',
+                lightRed: '#E5544B19',
+            },
+            pink: { DEFAULT: '#E5544B' },
+            mint: { DEFAULT: '#00C8BC' },
+
+            onus: {
+                DEFAULT: commonColors.onus.bg,
+                1: commonColors.onus.bg2,
+                2: commonColors.onus.bg3,
+                ...commonColors.onus,
+            },
+            nao: {
+                DEFAULT: commonColors.nao.bg,
+                ...commonColors.nao,
+            },
         },
         fontWeight: {
             light: 300,
@@ -197,105 +299,7 @@ module.exports = {
             ], // Heading 2 56px
         },
         // TODO split text, background
-        colors: {
-            dominant: commonColors.teal,
-            transparent: 'transparent',
-            current: 'currentColor',
 
-            listItemSelected: {
-                DEFAULT: commonColors.lightTeal,
-                dark: commonColors.darkBlue3,
-            },
-
-            divider: {
-                DEFAULT: commonColors.gray4,
-                dark: '#202C4C',
-            },
-
-            //--------------------------------------------
-            black: {
-                DEFAULT: '#02083D',
-                5: '#F7F6FD', // 9
-                50: '#F8F7FA', // 8
-                100: '#F6F9FC', // 7
-                200: '#EEF2FA', // 6
-                300: '#E1E2ED', // 5
-                400: '#C5C6D2', // 4
-                500: '#8B8C9B', // 3
-                600: '#3e3b3b', // 2
-                700: '#02083D', // 1,
-                800: '#000000',
-            },
-            white: colors.white,
-            blue: {
-                DEFAULT: '#384562',
-                50: '#eff6ff',
-                100: '#dbeafe',
-                200: '#bfdbfe',
-                300: '#a7acb9',
-                400: '#9198a8',
-                500: '#7a8396',
-                600: '#646e85',
-                700: '#4e5973',
-                800: '#384562',
-                900: '#223050',
-            },
-            darkBlue: {
-                DEFAULT: '#223050',
-                1: commonColors.darkBlue1,
-                2: commonColors.darkBlue2,
-                3: commonColors.darkBlue3,
-                4: commonColors.darkBlue4,
-                5: commonColors.darkBlue5,
-                '5a': 'rgba(123, 140, 178, 0.8)',
-            },
-            gray: {
-                DEFAULT: '#8D9091',
-                ...colors.gray,
-                1: commonColors.gray1,
-                2: commonColors.gray2,
-                3: commonColors.gray3,
-                4: commonColors.gray4,
-                5: commonColors.gray5,
-            },
-            teal: {
-                DEFAULT: '#00C8BC',
-                5: '#03bdce17',
-                50: '#b3efeb',
-                100: '#99e9e4',
-                200: '#80e4de',
-                300: '#4dd9d0',
-                400: '#33d3c9',
-                500: '#1acec3',
-                600: '#00C8BC',
-                700: '#00C8BC',
-                lightTeal: '#E2F6F5',
-                opacity: 'rgba(0, 200, 188, 0.5)',
-                opacitier: 'rgba(0, 200, 188, 0.1)',
-            },
-            green: {
-                DEFAULT: '#22B02E',
-                opacity: 'rgba(34, 176, 46, 0.18)',
-            },
-            yellow: { DEFAULT: '#FFD965' },
-            red: {
-                DEFAULT: '#E5544B',
-                lightRed: '#E5544B19',
-            },
-            pink: { DEFAULT: '#E5544B' },
-            mint: { DEFAULT: '#00C8BC' },
-
-            onus: {
-                DEFAULT: commonColors.onus.bg,
-                1: commonColors.onus.bg2,
-                2: commonColors.onus.bg3,
-                ...commonColors.onus,
-            },
-            nao: {
-                DEFAULT: commonColors.nao.bg,
-                ...commonColors.nao,
-            },
-        },
         extend: {
             screens: {
                 'nao': '1160px',
@@ -408,6 +412,7 @@ module.exports = {
                 onlyDark: '0px 7px 23px rgba(245, 245, 245, 0.05)',
             },
             boxShadow: {
+                lv4: '0px 6px 18px rgba(9, 30, 66, 0.15), 0px 0px 1px rgba(9, 30, 66, 0.31)',
                 onlyLight: '0px 7px 23px rgba(0, 0, 0, 0.05)',
                 'features': '0px 10px 30px rgba(89, 111, 153, 0.05)',
                 mobile: '0px 0px 5px rgba(0, 0, 0, 0.05), 0px 25px 35px rgba(0, 0, 0, 0.03)',
@@ -435,3 +440,4 @@ module.exports = {
         require('@tailwindcss/line-clamp'),
     ],
 };
+// Common colors

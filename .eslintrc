@@ -1,15 +1,15 @@
 {
     "parser": "@babel/eslint-parser",
     "parserOptions": {
-        "requireConfigFile": false
+        "requireConfigFile": false,
+        "babelOptions": {
+            "parserOpts": {
+                "plugins": ["js"]
+            }
+        }
     },
     "extends": "airbnb",
-    "plugins": [
-        "react",
-        "jsx-a11y",
-        "import",
-        "react-hooks"
-    ],
+    "plugins": ["react", "jsx-a11y", "import", "react-hooks"],
     "rules": {
         "arrow-body-style": 0,
         "arrow-parens": "off",
@@ -61,20 +61,11 @@
         "react/jsx-filename-extension": [
             1,
             {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
+                "extensions": [".js", ".jsx"]
             }
         ],
-        "react/jsx-indent": [
-            2,
-            4
-        ],
-        "react/jsx-indent-props": [
-            2,
-            4
-        ],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
         "react/jsx-one-expression-per-line": 0,
         "react/jsx-props-no-spreading": 0,
         "react/jsx-uses-react": "off",
@@ -89,12 +80,7 @@
     "settings": {
         "import/resolver": {
             "node": {
-                "extensions": [
-                    ".js",
-                    ".android.js",
-                    ".ios.js",
-                    ".jsx"
-                ]
+                "extensions": [".js", ".android.js", ".ios.js", ".jsx"]
             },
             "babel-module": {
                 "alias": {
