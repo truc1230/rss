@@ -90,12 +90,12 @@ module.exports = {
         },
         colors: {
             txtPrimary: '#22313F',
+            txtSecondary: '#808890',
             redPrimary: '#EB2B3E',
-            'text-pr': '#22313F',
-            'text-sc': '#808890',
             transparent: 'transparent',
             current: 'currentColor',
             btnOutline: '#FFF4F5',
+
 
             dominant: commonColors.teal,
             listItemSelected: {
@@ -104,7 +104,7 @@ module.exports = {
             },
 
             divider: {
-                DEFAULT: commonColors.gray4,
+                DEFAULT: '#E5E7E8',
                 dark: '#202C4C',
             },
 
@@ -123,6 +123,7 @@ module.exports = {
                 800: '#000000',
             },
             white: colors.white,
+            thite2: '#F8F8F8',
             blue: {
                 DEFAULT: '#384562',
                 50: '#eff6ff',

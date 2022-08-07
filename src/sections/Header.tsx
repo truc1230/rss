@@ -4,10 +4,10 @@ import { CarretDown } from '../components/Svg';
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-between px-3 lg:px-10 h-[70px]">
+        <header className="flex items-center justify-between px-3 lg:px-10 h-[70px]">
             <div className="flex items-center">
                 <img src="/images/logo_insurance.png" className="w-[75px] h-[36px]" alt="logo" />
-                <div className="flex items-center font-medium gap-6 ml-12">
+                <div className="items-center font-medium gap-6 ml-12 hidden md:flex">
                     <div className="text-sm leading-[14px]">Trangchu</div>
                     <div>
                         <div className="flex items-center text-sm leading-[14px]">
@@ -32,7 +32,7 @@ const Header = () => {
                     ketnoivi
                 </Button>
             </div>
-        </div>
+        </header>
     );
 };
 
