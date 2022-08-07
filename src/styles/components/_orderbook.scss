@@ -1,0 +1,23 @@
+.progress-container {
+  -webkit-box-align: center;
+  animation: 0.3s ease-out 0s 1 normal none running none;
+  overflow: hidden;
+  @apply relative flex flex-1 items-center flex-row;
+  .progress-bar {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    opacity: 0.1;
+    height: 18px;
+    width: 100%;
+    border-radius: 2px;
+
+    &.ask-bar {
+      @apply bg-red;
+    }
+    &.bid-bar {
+      @apply bg-teal;
+    }
+  }
+}
+

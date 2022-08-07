@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    @apply w-full h-full;
+    scroll-behavior: smooth;
+    /* Disable web page navigation on swipe(back and forward) */
+    /* overscroll-behavior-x: none; */
+    @apply text-base;
+    @apply text-txtPrimary;
+
+    @apply lg:text-base;
+    @apply md:text-base;
+
+    @apply bg-bgPrimary dark:bg-bgPrimary-dark;
+
+    font-family: 'Barlow', sans-serif !important;
+
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent !important;
+
+    a:hover,
+    a:active,
+    a:focus {
+        text-decoration: none !important;
+        outline: none !important;
+    }
+
+    img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+    }
+
+    input {
+        @apply outline-none bg-transparent placeholder-txtSecondary dark:placeholder-txtSecondary-dark truncate;
+
+        ::placeholder {
+            font-weight: 400 !important;
+        }
+    }
+
+    input[type='checkbox'] {
+        outline: 0;
+    }
+}
+
+.bg-gradient {
+    background: linear-gradient(
+        88.09deg,
+        #ce0014 0.48%,
+        #e92828 52.94%,
+        #ff5f6d 114.93%
+    ) !important;
+}
+
+.bg_section1 {
+    background-image: url('/images/bg_section_1.png');
+    background-size: 100% 100%;
+}
+.bg_footer {
+    background-image: url('/images/bg_footer.png');
+    background-size: 100% 100%;
+}

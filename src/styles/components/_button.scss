@@ -1,0 +1,121 @@
+// Madives 0.1 Button
+.mal-button {
+  @apply text-center;
+
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  transition: opacity .2s ease;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 14px;
+  }
+}
+
+.btn {
+  @apply flex items-center justify-center px-8 h-9 whitespace-nowrap text-sm font-semibold rounded-md text-txtPrimary;
+  cursor: pointer;
+
+  &.btn-icon {
+    @apply p-2.5 inline-flex items-center justify-center;
+    &.icon {
+      @apply text-black-500;
+    }
+  }
+
+  &.btn-lg {
+    @apply py-3.5;
+  }
+
+  &.btn-xs {
+    @apply py-2;
+    line-height: 0.875rem;
+  }
+}
+
+.btn-primary {
+  @apply bg-teal-700 hover:bg-teal-300 text-white;
+  &.btn-clean {
+    @apply bg-transparent text-teal-700
+  }
+}
+
+.btn-black {
+  @apply bg-black-700 text-white;
+}
+
+.btn-primary-reserve {
+  @apply text-teal-700 hover:bg-opacity-[0.9] bg-white;
+}
+
+.btn-green {
+  @apply bg-teal text-white;
+}
+
+.btn-red {
+  @apply bg-pink text-white;
+}
+
+.btn-secondary {
+  @apply bg-black-5 bg-opacity-80;
+}
+
+.button-common {
+  @apply bg-teal hover:bg-teal-300 text-white font-bold rounded;
+}
+
+.btn-outline-primary-light {
+  @apply border-teal-200 border text-white
+}
+
+.btn-primary-light {
+  @apply bg-teal-200 hover:bg-teal-300 text-white
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn-group {
+  @apply relative inline-flex align-middle border border-black-200 rounded;
+  &.btn-group-sm {
+    .btn {
+      @apply py-1 px-3 text-black-500 font-medium;
+    }
+  }
+
+  .btn:last-child {
+    @apply border-r-0
+  }
+
+  .btn:first-child {
+    @apply border-l-0
+  }
+
+  .btn {
+    border-right: 1px solid rgba(238, 242, 250);
+    @apply rounded-none;
+    //&:focus {
+    //  @apply border bg-black-200 text-black-700 rounded border-white;
+    //}
+    &.active {
+      @apply border bg-black-200 text-black-700 rounded border-white;
+      & + .btn {
+        border-left: 1px solid rgba(238, 242, 250);
+      }
+    }
+  }
+}
+
+button.btn:disabled {
+  @apply bg-opacity-50 select-none cursor-not-allowed
+}

@@ -1,0 +1,28 @@
+.bg-trading-competition1 {
+  background-image: url("/images/bg/bg-trading-competition1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  @screen xl {
+    background-position: center right;
+  }
+}
+
+.table-rank-01 .rdt_TableBody, .table-rank-01 .rdt_TableHead {
+}
+.table-rank-01 .rdt_Table .rdt_TableRow {
+  background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-rank-01 .rdt_TableRow .rdt_TableCell{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.table-rank-01 .rdt_TableHead {
+  background-color: #F6F9FC;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}

@@ -80,8 +80,8 @@ module.exports = {
     // },
     mode: 'jit',
     purge: [
-        './src/pages/**/**/*.{js,ts,jsx,tsx}',
-        './src/components/**/**/*.{js,ts,jsx,tsx}',
+        './src/*/**/**/*.{js,ts,jsx,tsx}',
+
     ],
     darkMode: 'class',
     theme: {
@@ -406,7 +406,6 @@ module.exports = {
                     dark: 'rgba(255, 247, 235, 0.2)',
                 }
             },
-            fontWeight: { bold: 600 },
             dropShadow: {
                 common: '0px 15px 30px rgba(0, 0, 0, 0.03)',
                 onlyLight: '0px 7px 23px rgba(0, 0, 0, 0.05)',

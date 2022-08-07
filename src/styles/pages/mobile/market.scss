@@ -1,0 +1,17 @@
+.market-mobile {
+  @apply flex flex-col h-full bg-onus-bgModal3;
+  .tab-active {
+    &:before {
+      content: '';
+      @apply absolute w-8 h-1 bg-onus-base bottom-[-1px] left-1/2 -translate-x-1/2;
+    }
+  }
+
+  .placeholder-text-center::placeholder {
+    -webkit-text-align: center;
+    -moz-text-align: center;
+    -ms-text-align: center;
+    -o-text-align: center;
+    text-align: center;
+  }
+}

@@ -2,6 +2,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Layout from '../components/Layout';
+import Banner from '../sections/Banner';
 import { isPlainObject } from '../utils/apply-url-filter';
 
 const Index = () => {
@@ -9,7 +10,8 @@ const Index = () => {
 
     return (
         <Layout>
-            <div className="mt-10 text-dominant">{t('home:faq')}</div>
+            {/* <div className="mt-10 text-dominant">{t('home:faq')}</div> */}
+            <Banner></Banner>
         </Layout>
     );
 };

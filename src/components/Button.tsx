@@ -10,7 +10,7 @@ export default function Button({ variants, children, className }: Props) {
     return (
         <button
             className={classNames(
-                'flex items-center text-sm rounded-[8px] font-medium py-3 px-6 leading-[14px]',
+                'flex items-center justify-center rounded-[8px] font-medium py-auto px-auto ',
                 variants === 'outlined' && 'bg-btnOutline text-redPrimary border border-redPrimary',
                 variants === 'primary' && 'bg-redPrimary text-white',
                 variants === 'gradient' && 'bg-gradient text-white',

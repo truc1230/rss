@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './Button';
-import { CarretDown } from './Svg';
+import Button from '../components/Button';
+import { CarretDown } from '../components/Svg';
 
 const Header = () => {
     return (
@@ -20,12 +20,17 @@ const Header = () => {
             <div className="flex items-center gap-6">
                 {/* en-vi */}
                 <div className="flex items-center border border-redPrimary p-1 rounded-[3px] gap-1">
-                    <Button variants="gradient" className="!p-[6px] rounded-[4px]">
+                    <Button
+                        variants="gradient"
+                        className="!p-[6px] rounded-[4px] text-sm leading-[14px]"
+                    >
                         VI
                     </Button>
                     <div className="text-sm font-medium mx-[6px]">EN</div>
                 </div>
-                <Button variants="gradient">ketnoivi</Button>
+                <Button variants="gradient" className="text-sm leading-[14px] w-[107px] h-[38px]">
+                    ketnoivi
+                </Button>
             </div>
         </div>
     );

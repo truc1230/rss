@@ -1,0 +1,32 @@
+.panel {
+  @apply border border-black-200 rounded-3xl p-10;
+  .panel-header {
+    @apply flex items-center justify-between;
+    .pane-header-title {
+      @apply flex items-center;
+      .panel-header-text {
+        @apply font-bold text-xl mr-3
+      }
+      .panel-header-number {
+        @apply flex items-center text-sm leading-none;
+        &.up {
+          @apply text-teal
+        }
+        &.down {
+          @apply text-red
+        }
+        .panel-header-icon {
+          @apply mr-1
+        }
+      }
+    }
+  }
+  .panel-body {
+    .panel-body-number {
+      @apply text-black text-3xl first:mr-1.5 font-semibold
+    }
+    .panel-body-text {
+      @apply text-black-500
+    }
+  }
+}

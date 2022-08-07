@@ -1,0 +1,47 @@
+.referral-container {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  .card {
+    box-shadow: 0px 32px 60px rgba(2, 8, 61, 0.06);
+    border-radius: 16px;
+    .card-body.referral-invitation {
+      padding: 1rem;
+    }
+    @screen lg {
+      .card-body.referral-invitation {
+        padding: 2.5rem 4.375rem
+      }
+    }
+  }
+}
+
+.btn-referral {
+  @apply bg-black-5 w-20 h-20 rounded flex items-center justify-center hover:bg-black-200;
+  img {
+    height: 36px;
+    width: 36px;
+  }
+}
+
+.qr-invitation {
+  padding: 3rem 4rem
+}
+
+
+.table-rank .rdt_TableBody, .table-rank .rdt_TableHead {
+  //padding-left: 16px;
+  //padding-right: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-rank .rdt_TableRow .rdt_TableCell{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.table-rank .rdt_TableHead {
+  background-color: #F6F9FC;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
