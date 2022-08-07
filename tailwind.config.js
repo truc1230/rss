@@ -89,12 +89,13 @@ module.exports = {
             center: true,
         },
         colors: {
-            primary: "#EB2B3E",
-            "text-pr": "#22313F",
-            "text-sc": "#808890",
+            txtPrimary: '#22313F',
+            redPrimary: '#EB2B3E',
+            'text-pr': '#22313F',
+            'text-sc': '#808890',
             transparent: 'transparent',
             current: 'currentColor',
-
+            btnOutline: '#FFF4F5',
 
             dominant: commonColors.teal,
             listItemSelected: {

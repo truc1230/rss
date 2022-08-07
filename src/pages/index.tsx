@@ -1,17 +1,16 @@
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
-import { LayoutAbc } from '../components/LayoutAbc';
+import Layout from '../components/Layout';
 import { isPlainObject } from '../utils/apply-url-filter';
 
 const Index = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="w-full h-full">
-            <LayoutAbc />
+        <Layout>
             <div className="mt-10 text-dominant">{t('home:faq')}</div>
-        </div>
+        </Layout>
     );
 };
 
