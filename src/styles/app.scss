@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'theme';
-@import 'theme.tailwind';
-
 html,
 body {
     @apply w-full h-full;
@@ -52,4 +49,13 @@ body {
     input[type='checkbox'] {
         outline: 0;
     }
+}
+
+.bg-gradient {
+    background: linear-gradient(
+        88.09deg,
+        #ce0014 0.48%,
+        #e92828 52.94%,
+        #ff5f6d 114.93%
+    ) !important;
 }

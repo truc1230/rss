@@ -17,8 +17,15 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center">
-                <Button variants="primary">ketnoivi</Button>
+            <div className="flex items-center gap-6">
+                {/* en-vi */}
+                <div className="flex items-center border border-redPrimary p-1 rounded-[3px] gap-1">
+                    <Button variants="gradient" className="!p-[6px] rounded-[4px]">
+                        VI
+                    </Button>
+                    <div className="text-sm font-medium mx-[6px]">EN</div>
+                </div>
+                <Button variants="gradient">ketnoivi</Button>
             </div>
         </div>
     );
