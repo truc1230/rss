@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const pageview = () => {
     if (window && window.fbq) {
         window.fbq('track', 'PageView');

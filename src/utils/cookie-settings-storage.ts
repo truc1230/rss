@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Storage from './storage';
 
 class CookieSettingsStorage extends Storage {

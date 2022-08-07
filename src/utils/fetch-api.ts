@@ -3,42 +3,43 @@
 /* eslint-disable no-undef */
 /* eslint-disable prefer-destructuring */
 // import applyURIFilter from 'src/utils/apply-url-filter';
-import axios from "axios";
-import merge from "lodash/merge";
+// @ts-nocheck
+import axios from 'axios';
+import merge from 'lodash/merge';
 
 // axios.defaults.withCredentials = true;
 // const axios = require('axios');
 
 const mandatory = () => {
-    return Promise.reject(new Error("Fetch API Missing parameter!"));
+    return Promise.reject(new Error('Fetch API Missing parameter!'));
 };
-const API_URL = "";
+const API_URL = '';
 const FetchApi = async (
     { url, options, params, cancelToken, timeout } = mandatory(),
     cb = (f) => f
 ) => {
     try {
         const defaultOptions = {
-            method: "GET",
+            method: 'GET',
             baseURL: API_URL,
             url,
             withCredentials: true,
             headers: {
-                Accept: "application/json",
-                "Content-Type": "application/json",
+                Accept: 'application/json',
+                'Content-Type': 'application/json'
             },
             cancelToken,
-            timeout,
+            timeout
         };
 
         const opts = merge(defaultOptions, options);
-        if (opts && opts.method === "GET") {
+        if (opts && opts.method === 'GET') {
             opts.params = params;
         } else {
             opts.data = params;
         }
 
-        if (process.env.NODE_ENV !== "production") {
+        if (process.env.NODE_ENV !== 'production') {
             // console.log('Call API: url, options, params', opts, options);
         }
 
@@ -46,7 +47,7 @@ const FetchApi = async (
         cb(null, data);
         return data;
     } catch (err) {
-        if (process.env.NODE_ENV !== "production") {
+        if (process.env.NODE_ENV !== 'production') {
             // console.error('Call API Error: ', err, err?.response?.data);
         }
         if (err?.response?.data) {

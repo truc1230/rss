@@ -1,3 +1,4 @@
+// @ts-nocheck
 export default (ms) => {
     const t = Math.abs(ms);
 
@@ -6,7 +7,9 @@ export default (ms) => {
     let d = Math.floor(t / cd);
     let h = Math.floor((t - d * cd) / ch);
     let m = Math.round((t - d * cd - h * ch) / 60000);
-    const pad = (n) => { return n < 10 ? '0' + n : n; };
+    const pad = (n) => {
+        return n < 10 ? '0' + n : n;
+    };
     if (m === 60) {
         h++;
         m = 0;

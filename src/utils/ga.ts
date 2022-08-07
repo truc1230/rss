@@ -1,7 +1,8 @@
+// @ts-nocheck
 export const pageview = (url) => {
     if (window && window.gtag) {
         window.gtag('config', 'G-RGS9ZWC4NW', {
-            page_path: url,
+            page_path: url
         });
     }
 };
@@ -12,7 +13,7 @@ export const event = ({ action, category, label, value }) => {
         window.gtag('event', action, {
             event_category: category,
             event_label: label,
-            value,
+            value
         });
     }
 };

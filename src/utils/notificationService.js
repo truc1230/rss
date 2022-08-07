@@ -1,3 +1,4 @@
+// @ts-nocheck
 import 'animate.css/animate.min.css';
 import defaults from 'lodash/defaults';
 import { Store } from 'react-notifications-component';
@@ -22,12 +23,17 @@ const NotificationContent = (props) => {
     );
 };
 
-const showNotification = (options = {}, dismiss = undefined, position = 'top', container = 'top-right') => {
+const showNotification = (
+    options = {},
+    dismiss = undefined,
+    position = 'top',
+    container = 'top-right'
+) => {
     const { title, message, type, note } = defaults(options, {
         title: '',
         message: '',
         note: '',
-        type: 'success',
+        type: 'success'
     });
 
     Store.addNotification({
@@ -40,9 +46,9 @@ const showNotification = (options = {}, dismiss = undefined, position = 'top', c
         animationOut: ['animate__animated', 'animate__slideOutRight', 'animate__faster'],
         dismiss: {
             duration: dismiss || 5000,
-            onScreen: false,
+            onScreen: false
         },
-        content: <NotificationContent title={title} message={message} type={type} note={note}/>
+        content: <NotificationContent title={title} message={message} type={type} note={note} />
     });
 };
 
