@@ -14,7 +14,7 @@ const mandatory = () => {
     return Promise.reject(new Error('Fetch API Missing parameter!'));
 };
 const API_URL = '';
-const FetchApi = async (
+const fetchApi = async (
     { url, options, params, cancelToken, timeout } = mandatory(),
     cb = (f) => f
 ) => {
@@ -58,4 +58,4 @@ const FetchApi = async (
     }
 };
 
-export default FetchApi;
+export default fetchApi;
