@@ -123,7 +123,8 @@ module.exports = {
                 800: '#000000',
             },
             white: colors.white,
-            thite2: '#F8F8F8',
+            white2: '#F8F8F8',
+            white3: '#F2F3F4',
             blue: {
                 DEFAULT: '#384562',
                 50: '#eff6ff',

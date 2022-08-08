@@ -43,11 +43,11 @@ const App = ({ Component, pageProps }) => {
     return (
         <QueryClientProvider client={qcRef.current}>
             <Provider store={store}>
-                {/* <Web3WalletProvider config={walletProviderConfig}> */}
-                <PersistGate loading={<LoadingPage />} persistor={persistor}>
-                    <Component {...pageProps} />
-                </PersistGate>
-                {/* </Web3WalletProvider> */}
+                <Web3WalletProvider config={walletProviderConfig}>
+                    <PersistGate loading={<LoadingPage />} persistor={persistor}>
+                        <Component {...pageProps} />
+                    </PersistGate>
+                </Web3WalletProvider>
             </Provider>
         </QueryClientProvider>
     );

@@ -24,7 +24,8 @@ const Web3WalletStateProvider = ({
     connectorsData: ConnectorsData;
 }) => {
     const state = useWeb3WalletState(connectorsData);
-    return <Web3WalletContext.Provider value={state}></Web3WalletContext.Provider>;
+
+    return <Web3WalletContext.Provider value={state}>{children}</Web3WalletContext.Provider>;
 };
 const getConnectorInfo = (connector: Connector): ConnectorInfo => {
     if (connector instanceof MetaMask) {
@@ -85,6 +86,7 @@ export const Web3WalletProvider = ({ children, config }: Web3WalletProviderProps
         walletConnect: getConnectorInfo(walletConnect),
         coinbaseWallet: getConnectorInfo(coinbaseWallet)
     };
+    console.log('Web3WalletProvider');
 
     return (
         <Web3ReactProvider connectors={connectors}>

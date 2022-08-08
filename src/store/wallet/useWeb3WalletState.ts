@@ -36,11 +36,12 @@ const useWeb3WalletState = (
     connectorsData: Record<ConnectorId, { id: ConnectorId; name: string; connector: Connector }>
 ) => {
     const { connector, account, chainId, isActive, error, provider } = useWeb3React() as any;
-    // useWeb3React() changetemp
     const contractCaller = useRef<ContractCaller | null>(null);
 
     const activate = async (connectorId: ConnectorId, chainId?: number) => {
         const connector = connectorsData[connectorId].connector;
+        console.log(connector);
+
         connector.deactivate();
         connector instanceof WalletConnect
             ? await connector.activate(chainId)

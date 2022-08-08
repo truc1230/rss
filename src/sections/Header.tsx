@@ -1,6 +1,6 @@
 // @ts-nocheck
 import classNames from 'classnames';
-import React, { useEffect } from 'react';
+import React, { memo, useEffect } from 'react';
 import Button from '../components/Button';
 import { CarretDown } from '../components/Svg';
 import useLanguage from '../hooks/useLanguage';
@@ -9,23 +9,26 @@ import { LANGUAGE_TAG } from '../utils/constants';
 
 const Header = () => {
     const [currentLocale, onChangeLang] = useLanguage();
-    // const wallet = useWallet();
-    // const {
-    //     account,
-    //     switchNetwork,
-    //     chain,
-    //     activate,
-    //     deactivate,
-    //     isActive,
-    //     error,
-    //     connector,
-    //     provider,
-    //     balance,
-    //     contractCaller,
-    //     getBalance,
-    //     getBalanceNain
-    // } = wallet;
-    // console.log(wallet);
+    const wallet = useWallet();
+    const {
+        account,
+        switchNetwork,
+        chain,
+        activate,
+        deactivate,
+        isActive,
+        error,
+        connector,
+        provider,
+        balance,
+        contractCaller,
+        getBalance,
+        getBalanceNain
+    } = wallet;
+    console.log(wallet);
+    function handleConnectWallet() {
+        activate('metaMask');
+    }
 
     const renderLanguageBtn = (language) => {
         if (currentLocale === language)
@@ -37,6 +40,28 @@ const Header = () => {
         else return <div className="text-sm font-medium mx-[6px] uppercase">{language}</div>;
     };
 
+    function renderBtnLogin() {
+        if (account)
+            return (
+                <div className="flex items-center gap-2 bg-white3 px-1 py-2 rounded-[5px]">
+                    <img src="/images/cryptocurrency.png" className="w-6 h-6" />
+                    <div className="text-sm leading-[14px] font-semibold">{connector?.name}</div>
+                    <div className="text-sm leading-[14px] font-semibold px-4 py-1 bg-white rounded-[5px]">
+                        {account.slice(0, 8)}
+                    </div>
+                </div>
+            );
+        else
+            return (
+                <Button
+                    variants="gradient"
+                    className="text-sm leading-[14px] w-[107px] h-[38px]"
+                    onClick={handleConnectWallet}
+                >
+                    ketnoivi
+                </Button>
+            );
+    }
     return (
         <header className="flex items-center justify-between px-3 lg:px-10 h-[70px]">
             <div className="flex items-center">
@@ -60,9 +85,7 @@ const Header = () => {
                     {renderLanguageBtn(LANGUAGE_TAG.VI)}
                     {renderLanguageBtn(LANGUAGE_TAG.EN)}
                 </div>
-                <Button variants="gradient" className="text-sm leading-[14px] w-[107px] h-[38px]">
-                    ketnoivi
-                </Button>
+                {renderBtnLogin()}
             </div>
         </header>
     );
