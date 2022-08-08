@@ -4,9 +4,10 @@ type Props = {
     variants: 'outlined' | 'primary' | 'gradient';
     children: ReactNode;
     className?: string;
+    onClick?: () => void;
 };
 
-export default function Button({ variants, children, className }: Props) {
+export default function Button({ variants, children, className, onClick }: Props) {
     return (
         <button
             className={classNames(
@@ -16,6 +17,7 @@ export default function Button({ variants, children, className }: Props) {
                 variants === 'gradient' && 'bg-gradient text-white',
                 className
             )}
+            onClick={onClick}
         >
             {children}
         </button>

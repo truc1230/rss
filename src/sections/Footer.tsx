@@ -9,7 +9,10 @@ export default function Footer({}: Props) {
     // }
     return (
         <footer>
-            <ReceiveEmail />
+            <div className="md:my-[120px]">
+                <ReceiveEmail />
+            </div>
+
             <div className="bg_footer flex items-center justify-center gap-8 h-[134px]">
                 <div className="text-[1.25rem] font-medium text-white">
                     Sản phẩm được bảo trợ bởi
@@ -40,7 +43,7 @@ export default function Footer({}: Props) {
                         ))}
                     </div>
                 </div>
-                <div className="border border-devider"></div>
+                <div className="border border-divider"></div>
                 <div className="text-xs leading-3 text-txtSecondary">
                     Copyright © 2021 UI8 LLC. All rights reserved
                 </div>
